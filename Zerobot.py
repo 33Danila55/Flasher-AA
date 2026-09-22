@@ -39,7 +39,7 @@ def send_messages_range():
             print("❌ Ошибка: Выбран пустой диапазон.")
             return
     except ValueError:
-        print("❌ Ошибка: Вводите только целые числа.")
+        print("❌ Ошибка: Вводите только целые чис.")
         return
 
     # 3. Подготовка
