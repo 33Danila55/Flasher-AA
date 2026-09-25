@@ -28,7 +28,7 @@ def send_messages_range():
     
     # 2. Запрос диапазона у пользователя
     try:
-        start_num = int(input(f"Введите номер ПЕРВОГО предложения (от 1 до {len(all_lines)}): "))
+        start_num = int(input(f"Введите номер ПЕРВОГО предложея (от 1 до {len(all_lines)}): "))
         end_num = int(input(f"Введите номер ПОСЛЕДНЕГО предложения (от {start_num} до {len(all_lines)}): "))
         
         # Срез списка (индексы в Python начинаются с 0, поэтому вычитаем 1)
