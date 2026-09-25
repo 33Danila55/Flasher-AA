@@ -31,7 +31,7 @@ def send_messages_range():
         start_num = int(input(f"Введите номер ПЕРВОГО предложея (от 1 до {len(all_lines)}): "))
         end_num = int(input(f"Введите номер ПОСЛЕДНЕГО предложения (от {start_num} до {len(all_lines)}): "))
         
-        # Срез списка (индексы в Python начинаются с 0, поэтому вычитаем 1)
+        # Срез списка (индексы в Python начинаются с 0, поэтомуычитаем 1)
         selected_messages = all_lines[start_num-1 : end_num]
         total_to_send = len(selected_messages)
         
