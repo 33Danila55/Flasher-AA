@@ -44,7 +44,7 @@ def send_messages_range():
 
     # 3. Подготовка
     print(f"\n🚀 Готов отправить {total_to_send} сообщений (с {start_num} по {end_num}).")
-    print(f"У вас есть {START_DELAY} секунд. Смените раскладку на ENG и кликните в Discord!")
+    print(f"У вас есть {START_DELAY} секунд. Смените раскладку на ENG и кликте в Discord!")
     
     for i in range(START_DELAY, 0, -1):
         print(f"Старт через: {i}...")
